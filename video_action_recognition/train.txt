@@ -1,0 +1,4 @@
+/Users/pranoyr/PycharmProjects/3d-cnn-keras/video_action_recognition/ActionDataImages/train/running/v_ApplyEyeMakeup_g19_c04 0
+/Users/pranoyr/PycharmProjects/3d-cnn-keras/video_action_recognition/ActionDataImages/train/running/v_ApplyEyeMakeup_g20_c01 0
+/Users/pranoyr/PycharmProjects/3d-cnn-keras/video_action_recognition/ActionDataImages/train/ApplyEyeMakeup/v_ApplyEyeMakeup_g01_c01 1
+/Users/pranoyr/PycharmProjects/3d-cnn-keras/video_action_recognition/ActionDataImages/train/ApplyEyeMakeup/v_ApplyEyeMakeup_g01_c02 1
