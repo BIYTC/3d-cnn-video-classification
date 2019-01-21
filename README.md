@@ -1,4 +1,4 @@
-# 3D-CNN-Video-Classification
+# 3D CNN Video Classification
 3D CNN for Video Classification
 
 ## Getting Started
