@@ -6,7 +6,7 @@
 1. TensorFlow
 2. Keras
 
-### Dataset
+### Dataset Preparation
 ![alt text](https://github.com/pranoyr/3d-cnn-video-classification/blob/master/dataset_dir.png)
 
 ### Train
