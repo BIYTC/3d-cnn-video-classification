@@ -11,11 +11,17 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--data', type=str, default='/media/pranoy/Datasets/video_action_recognition', help='path to dataset')
 opt = parser.parse_args()
 
+# image dimensions
+video_length=50
+img_h=50
+img_w=50
+img_c=3
+
 # Parameters
-params = {'dim': (50,50,50),
+params = {'dim': (video_length,img_h,img_w),
           'batch_size': 2,
           'n_classes': 2,
-          'n_channels': 3,
+          'n_channels': img_c,
           'shuffle': True}
 
 # Datasets

@@ -52,7 +52,7 @@ class DataGenerator(keras.utils.Sequence):
                 img=misc.imread(os.path.join(ID,img_name),mode='RGB')
                 img=misc.imresize(img,(self.dim[1],self.dim[2]))
                 images.append(img)
-            images=np.array(images)[0:50]
+            images=np.array(images)[0:self.dim[0]]
             # pre process image
             images = images.astype('float32')
             images = images / 255.0
