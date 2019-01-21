@@ -6,6 +6,9 @@
 1. TensorFlow
 2. Keras
 
+### Dataset
+Dataset should be in this form
+
 ### Train
 1. cd video_action_recognition
 2. python generate_image_folder.py
