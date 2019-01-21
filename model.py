@@ -13,7 +13,7 @@ import h5py
 
 def cnn_3d(num_classes):
     ## input layer
-    input_layer = Input((100, 150, 150, 3))
+    input_layer = Input((50, 50, 50, 3))
 
     ## convolutional layers
     conv_layer1 = Conv3D(filters=8, kernel_size=(3, 3, 3), activation='relu')(input_layer)

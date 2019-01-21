@@ -12,7 +12,7 @@ parser.add_argument('--data', type=str, default='/media/pranoy/Datasets/video_ac
 opt = parser.parse_args()
 
 # Parameters
-params = {'dim': (100,150,150),
+params = {'dim': (50,50,50),
           'batch_size': 2,
           'n_classes': 2,
           'n_channels': 3,
