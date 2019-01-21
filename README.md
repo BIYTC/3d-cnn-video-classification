@@ -7,7 +7,6 @@
 2. Keras
 
 ### Dataset
-Dataset should be in this form
 ![alt text](https://github.com/pranoyr/3d-cnn-video-classification/blob/master/dataset_dir.png)
 
 ### Train
