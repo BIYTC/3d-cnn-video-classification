@@ -8,7 +8,7 @@ from keras.optimizers import Adadelta
 from utils import*
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--data', type=str, default='/media/pranoy/Datasets/video_action_recognition', help='path to dataset')
+parser.add_argument('--data', type=str, default='./data', help='path to dataset')
 opt = parser.parse_args()
 
 # image dimensions
@@ -36,7 +36,7 @@ model = cnn_3d(num_classes=params['n_classes'])
 model.compile(loss='categorical_crossentropy', optimizer=Adadelta(lr=0.1), metrics=['acc'])
 
 #checkpoint = ModelCheckpoint(filepath='LSTM+BN5--{epoch:02d}--{val_loss:.3f}.hdf5', monitor='loss', verbose=1, mode='min', period=1)
-checkpoint = ModelCheckpoint(filepath='model.h5', monitor='loss', verbose=1, mode='min', period=1)
+checkpoint = ModelCheckpoint(filepath='./snapshots/action.h5', monitor='loss', verbose=1, mode='min', period=1)
 # Train model on dataset
 model.fit_generator(generator=training_generator,
                     #steps_per_epoch=int(training_generator.n / params['batch_size']),

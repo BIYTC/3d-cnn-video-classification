@@ -1,0 +1,2 @@
+/Users/pranoyr/PycharmProjects/3d-cnn-keras/data/image_data/running/4 0
+/Users/pranoyr/PycharmProjects/3d-cnn-keras/data/image_data/ApplyEyeMakeup/4 1

@@ -23,8 +23,6 @@ def load_data(dir_path):
     partition['val']=val_list
     return partition,labels
 
-# x,y=load_data('./video_action_recognition')
-# print(y)
 
 # converting labels to integers
 def convert_to_integer(path):

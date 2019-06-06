@@ -1,4 +1,0 @@
-/Users/pranoyr/PycharmProjects/3d-cnn-keras/video_action_recognition/ActionDataImages/train/running/running 0
-/Users/pranoyr/PycharmProjects/3d-cnn-keras/video_action_recognition/ActionDataImages/train/running/running1 0
-/Users/pranoyr/PycharmProjects/3d-cnn-keras/video_action_recognition/ActionDataImages/train/ApplyEyeMakeup/makeup 1
-/Users/pranoyr/PycharmProjects/3d-cnn-keras/video_action_recognition/ActionDataImages/train/ApplyEyeMakeup/makeup1 1
